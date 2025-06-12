@@ -10,7 +10,7 @@ export const Button1 = ()=>{
             whileHover={{
                 rotateX:25,
                 rotateY:10,
-                boxShadow: "0px 20px 50px rgba(8, 112, 185,1.7)"
+                    
             }}
             style={{
                 translateZ:100,
