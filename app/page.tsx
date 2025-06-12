@@ -1,8 +1,8 @@
-import { Box_Background} from "@/Components/Box_Background"
+import { Dot_Background} from "@/Components/Dot_Background"
 
 const Home = ()=>{
   return <>
-  <Box_Background/>
+  <Dot_Background/>
   </>
 }
 export default Home
