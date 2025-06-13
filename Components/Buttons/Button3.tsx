@@ -20,17 +20,7 @@ export const Button3 = () => {
                     }}
                     className='bg-orange-500 px-6 p-2 border-1'>
                     <button className='text-white font-medium font-sans'>
-                        <motion.span
-                            variants={{
-                                initial: { y: 0, x: 0 },
-                                hovered: { y: -10, x: 0, opacity:0 }
-                            }}
-                            transition={{
-                                duration: 0.1,
-                                ease: 'easeInOut',
-                            }}
-                            className='inline-block'
-                        >Hover me!</motion.span>
+                        <motion.span>Hover me!</motion.span>
                     </button>
                 </motion.div>
             </motion.div>
