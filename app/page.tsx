@@ -1,7 +1,8 @@
-import { Button3 } from "@/Components/Buttons/Button3"
+import { RevealCard } from "@/Components/Cards/RevealCard"
+
 const Home = ()=>{
   return <>
-  <Button3/>
-  </>
+    <RevealCard/>
+    </>
 }
 export default Home
